@@ -44,6 +44,8 @@ var TxtType = function(el, toRotate, period) {
         }, delta);
     };
 
+    // Newton Young WAS HERE!
+
     window.onload = function() {
         var elements = document.getElementsByClassName('responsive-headline');
         for (var i=0; i<elements.length; i++) {
@@ -53,7 +55,7 @@ var TxtType = function(el, toRotate, period) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
         }
-        // INJECT CSS
+        // INJECTING CSS *NewtonYoung*
         var css = document.createElement("style");
         css.type = "text/css";
         css.innerHTML = ".responsive-headline> .wrap { border-right: 0.08em solid #ffffff, color:white}";
