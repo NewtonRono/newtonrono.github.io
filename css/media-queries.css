@@ -40,6 +40,9 @@
       width: 65%;
       margin: 12px auto;
    }
+   #contact select{
+      margin-right: 260px;
+   }
    /* nav-wrap */
    #nav-wrap {
       font: 11px 'opensans-bold', sans-serif;
